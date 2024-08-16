@@ -71,6 +71,7 @@
     opacity: 0.5;
     padding: 15px;
     border-radius: 15px;
+    cursor: pointer;
   }
 
   .image-container {

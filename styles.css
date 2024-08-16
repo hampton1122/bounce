@@ -60,8 +60,39 @@
     color: white;
     line-height: 1.6;
   }
+
+  .image-container {
+    position: relative;
+    display: inline-block; /* Ensures the container only takes the space it needs */
+  }
   
-  .image-content {
+  .icon-text {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed for vertical positioning */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background for visibility */
+    padding: 5px 10px;
+    font-size: 14px;
+    display: flex; /* Enable Flexbox */
+    align-items: center; /* Vertically center items */
+    gap: 5px; /* Space between icon and text */
+    cursor: pointer;
+  }
+  
+  
+  .hero-image {
+    display: block; /* Ensure the image behaves correctly */
+    max-width: 100%; /* Prevent image overflow */
+  }
+
+  .social-icon {
+    max-width: 25px;
+    height: auto;
+  }
+  
+  
+  /* .image-content {
     flex: 1 1 40%;
     padding: 20px;
   }
@@ -70,7 +101,7 @@
     width: 100%;
     height: auto;
     border-radius: 10px;
-  }
+  } */
   
   footer {
     background-color: #8e9571;

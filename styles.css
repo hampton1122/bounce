@@ -67,6 +67,10 @@
     font-size: 18px;
     color: white;
     line-height: 1.6;
+    background-color: #333;
+    opacity: 0.5;
+    padding: 15px;
+    border-radius: 15px;
   }
 
   .image-container {
@@ -92,6 +96,7 @@
   .hero-image {
     display: block; /* Ensure the image behaves correctly */
     max-width: 100%; /* Prevent image overflow */
+    border-radius: 15px;
   }
 
   .social-icon {
